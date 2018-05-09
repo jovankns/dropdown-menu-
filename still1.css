@@ -1,0 +1,89 @@
+*{
+	margin:0 auto;
+	padding:0;
+}
+
+body {
+	text-align:center;
+}
+
+nav {
+	margin-top:36px;
+	font-family: 'Raleway', sans-serif;
+	font-size:18px;
+	color:#b3b3b3;
+}
+
+nav ul ul {
+	display: none;
+	text-align:left;
+}
+
+nav ul {
+	background: #7c7c7c;  
+	padding:0px;  
+	list-style: none;
+	position: relative;
+	display: inline-table;
+}
+
+	
+nav ul li {
+	height: 46px;
+	float: left;
+}
+
+nav ul li:hover {
+	background: #5c5c5c;
+}
+
+nav ul li:hover > ul {
+	display: block;
+}
+
+nav ul li a {
+	display: block; 
+	padding: 12px 55px;
+	color: #bebebe;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	color: white;
+}
+	
+nav ul ul {
+	color:white;
+	background: #737373;
+	padding: 0;
+	position: absolute;
+	top: 100%;
+}
+
+nav ul ul li {
+	float: none; 
+	position: relative;
+}
+
+nav ul ul li a {
+	padding: 12px 55px;
+	width:158px;
+	color: #bebebe;
+}	
+
+nav ul ul li a:hover {
+	color: white;
+	background: #5c5c5c;
+}
+		
+nav ul ul ul {
+	position: absolute; 
+	left: 100%;
+	top:0;
+}
+
+nav ul ul ul li a {
+	padding: 12px 55px;
+	width:82px;
+	color: #bebebe;
+}	
